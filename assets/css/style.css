@@ -1,5 +1,5 @@
 body {
-        background-color: #ffffff;
+        background-image: ;
         margin: 25px;
 }
 
@@ -10,40 +10,57 @@ h1 {
 .header-box {
         text-align:center;
         border: 1px solid #cccccc;
-        background-color: #ffffff;
+        background-color: #4aaaa5;
         width: 20%;
         position: absolute;
         left: 200px;
 }
 
-.nav-bar {
+.nav-bar{
         text-align:right;
-        border: 1px solid black ;
-        margin-top: 30px;
-        margin-bottom: 20px;
+        margin: 30px;
+        word-spacing: 40px;
+        background-color: white;
+        font-size: 20px;
+}
+
+a:link {
+        color: grey;
+    }
+
+Header {
+        text-align: middle;
+        border: 1px solid black;
+        float: right;
+        width: 100%;
+        height: 80px;
+        background-color: white;
 }
 
 .box-set {
-        width: 100%;
-        height: 75%;
-        border: 1px solid blue; 
-        float: left;
+        padding-left:135px;
+
 }
+
 
 .section {
         border: 1px solid red;
         width: 650px;
-        height: 515px;
+        height: 465px;
         margin-right: 10px;
         float: left;
         position: relative;
+        padding: 30px;
 }
 
 .aside {
         border: 1px solid green;
+        margin-left: 50px;
+        padding: 20px;
         width: 270px;
-        height: 300px;
+        height: 220px;
         float: left;
+        text-align: center;
 }
 
 #article {
@@ -56,18 +73,24 @@ h1 {
 }
 
 h2 {
-        margin-left: 25px;
-        margin-top: 60px;
+        color: #4aaaa5;
+        font-size: 30px;
+}
+
+h3 {
+        color: #4aaaa5;
+        font-size: 20px;
 }
 
 .headshot {
         float: left;
-        margin: 2px;
+        margin: 5px;
         border: 1px solid black;
+        margin-right: 10px;
 }
 
 p {
-        clear: both;
+        float: right;
         top: 30px;
         left: 25px;
         margin-right: 50px;
@@ -84,3 +107,4 @@ p {
         position: absolute;
         bottom: 0;
 }
+
