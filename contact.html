@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link rel="stylesheet" href="assets/css/reset.css">
 </head>
-<body>
-        <header>
-                <div class="nav-bar">
-                    <a href="Index.html">About</a>
-                    <a href="portfolio.html">Portofilo</a>
-                    <a href="contact.html">Contact</a>
-                    </ul>
-                </div>
-            </header>
-        
-            <div class="box-set">
-                <figure class="section">
-                    <h2>Contact</h2>
-                    <hr>
-                    <p>
-        <script language="javascript">var sa_email_id = '87243-7a039';var sa_sent_text = 'Thank you for contacting us. We will get back to you soon.';</script>
-        <script language="javascript" src="http://s1.smartaddon.com/sa_htmlform.js"></script>
-        <div id="sa_contactdiv">
-        <form name=sa_htmlform style="margin:0px" onsubmit="return sa_contactform()">
-        <table>
-        <tr><td>Name: <span style="color:#D70000">*</span><br><input type="text" name="name" required="true" /></td></tr>
-        <tr><td>E-mail Address: <span style="color:#D70000">*</span><br><input type="text" name="email" required="true" /></td></tr>
-        <tr><td>Subject: <span style="color:#D70000">*</span><br><input type="text" name="subject" required="true" /></td></tr>
-        <tr><td>Message: <span style="color:#D70000">*</span><br><textarea name="message" cols="42" rows="9" required="true"></textarea></td></tr>
-        <tr><td><input type="submit" value="Send Message" style="font-weight:bold"></td></tr>
-        </table>
-    </p>
-</figure>
 
-<figure class="aside">
-    <h3>Connect With Me</h3>
-    <hr>
-    <p>    
-        <img border="0" alt="linkedin" src="assets/images/linkedin.png" width="75" height="75">
-    </p>
-</figure>
+<body background="assets/images/circles-light.png">
 
-</div>
+    <header>
+        <div class="header-box">
+            <h1>Jake Donovan</h1>
+        </div>
+        <div class="nav-bar">
+            <a href="Index.html">About</a>
+            <a> | </a>
+            <a href="portfolio.html">Portofilo</a>
+            <a> | </a>
+            <a href="contact.html">Contact</a>
+            </ul>
+        </div>
+    </header>
+
+    <div class="box-set">
+        <figure class="section">
+            <h2>Contact</h2>
+            <hr>
+            <form class=form>
+                    Name<br>
+                    <input type="text" id="name">
+                <br>
+                    Email<br>
+                    <input type="text" id="email">
+                <br>
+                    Message<br>
+                    <input type="text" id="message">
+                    </form>
+                <button id="form_button"><a>Submit</a></button>
+        </figure>
+
+        <figure class="aside">
+            <h3>Connect With Me</h3>
+            <hr>
+            <div class="icons">
+                <a href="https://github.com/Donstarr/" alt="Github" id="github">
+                    <img src="assets/images/github.png" width="50" height="50">
+                </a>
+                <a href="https:/linkedin.com/in/jake-donovan" alt="linkedin" id="linkedin">
+                    <img src="assets/images/linkedin.png" width="50" height="50">
+                </a>
+                <a href="https://stackoverflow.com/users/9185427/jaketeke?tab=profile" alt="Stack" id="stack">
+                    <img src="assets/images/stack.ico" width="50" height="50">
+                </a>
+            </div>
+        </figure>
+
+        </div>
 
 
-<footer id="footer">footer</footer>
+
+        <footer id="footer">
+            © 2017 Jake Donovan
+        </footer>
+
 
 
 </body>
